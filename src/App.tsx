@@ -1,3 +1,4 @@
+import { Button } from "./components/Button"
 
 
 function App() {
@@ -5,7 +6,11 @@ function App() {
 
   return (
     <>
-      <h1>oi</h1>
+      <Button color="default"/>
+      <Button color="danger"/>
+      <Button color="primary"/>
+      <Button color="secondary"/>
+      <Button color="success"/>
     </>
   )
 }
