@@ -24,7 +24,7 @@ export const ButtonContainer = styled.button<colorProps>`
     font-weight: bold;
     color: white;
 
-    background-color: ${(props)=> props.theme.dark};
+    background-color: ${(props)=> props.theme.info};
     
   
 
