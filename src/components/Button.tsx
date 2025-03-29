@@ -1,12 +1,12 @@
 interface ButtonProps {
-    color?: "primary" | "secondary" | "success" | "danger" | "default";
+    variant?: "primary" | "secondary" | "success" | "danger" | "default";
 }
 
 
 import { ButtonContainer } from './Button.styles';
-export function Button({color="default"}: ButtonProps) {
+export function Button({variant="default"}: ButtonProps) {
     return (
-        <ButtonContainer variant={color} >
+        <ButtonContainer variant={variant} >
             Button
         </ButtonContainer>
     )

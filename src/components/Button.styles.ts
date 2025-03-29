@@ -23,10 +23,9 @@ export const ButtonContainer = styled.button<colorProps>`
     font-size: 16px;
     font-weight: bold;
     color: white;
+
+    background-color: ${(props)=> props.theme.dark};
     
-    background-color: ${(props) => colorType[props.variant || "default"]};
-    &:hover {
-        opacity: 0.6;
-    }
+  
 
 `
